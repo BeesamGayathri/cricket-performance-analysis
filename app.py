@@ -100,6 +100,25 @@ upper = Q3 + 1.5 * IQR
 outliers = filtered_df[filtered_df["Average"] > upper]
 
 st.dataframe(outliers[["Player", "Average", "Strike_Rate"]])
+df = pd.read_csv("cricketdata.csv")
+
+# =========================
+# DATA CLEANING (ADD THIS 🔥)
+# =========================
+
+# Rename columns
+df.rename(columns={
+    "Mat": "Matches",
+    "Inns": "Innings",
+    "NO": "Not_Out",
+    "Ave": "Average",
+    "BF": "Balls_Faced",
+    "SR": "Strike_Rate"
+}, inplace=True)
+
+# Extract Country
+df["Country"] = df["Player"].str.extract(r"\((.*?)\)")
+df["Player"] = df["Player"].str.replace(r"\(.*\)", "", regex=True).str.strip()
 
 # =========================
 # FOOTER
