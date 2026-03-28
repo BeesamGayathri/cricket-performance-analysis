@@ -26,16 +26,6 @@ This project demonstrates an **end-to-end data analysis workflow**, transforming
 
 ---
 
-## 🎥 App Demo
-
-*(Optional but highly recommended)*
-
-```md id="qg4r0v"
-![App Demo](demo.gif)
-```
-
----
-
 ## 📌 Features
 
 ✨ Interactive Dashboard
