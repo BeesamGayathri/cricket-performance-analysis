@@ -109,7 +109,12 @@ streamlit run app.py
 * 📂 GitHub: https://github.com/BeesamGayathri
 
 ---
+## 🎥 App Demo  
 
+<p align="center">
+  <img src="demo.gif" width="800">
+</p>
+---
 ## ⭐ Support
 
 If you like this project, please ⭐ the repository and share it!
