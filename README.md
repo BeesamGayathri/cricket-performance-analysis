@@ -111,10 +111,7 @@ streamlit run app.py
 ---
 ## 🎥 App Demo  
 
-<p align="center">
-  <img src="demo.gif" width="600" alt="Cricket EDA Dashboard Demo">
-</p>
-
+![Cricket EDA Demo](demo.gif)
 <p align="center">
   <b>🏏 Cricket EDA Dashboard – Data Analysis & Insights Visualization</b>
 </p>
