@@ -111,11 +111,13 @@ streamlit run app.py
 ---
 ## 🎥 App Demo  
 
-![Cricket EDA Demo](demo.gif)
 <p align="center">
-  <b>🏏 Cricket EDA Dashboard – Data Analysis & Insights Visualization</b>
+  <img src="demo.gif" width="650" alt="Cricket EDA Dashboard Demo">
 </p>
----
+
+<p align="center">
+  🏏 Interactive Cricket Data Analysis Dashboard
+</p>
 ## ⭐ Support
 
 If you like this project, please ⭐ the repository and share it!
